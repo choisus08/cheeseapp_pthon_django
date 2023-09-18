@@ -26,6 +26,6 @@ router = routers.DefaultRouter()
 router.register(r'cheese', CheeseViewSet)
 
 urlpatterns = [
-    path('', include(router.urls))
-    path('admin/', admin.site.urls),
+    path('', include(router.urls)),
+    path('admin/', admin.site.urls)
 ]
